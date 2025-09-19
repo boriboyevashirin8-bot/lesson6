@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
       <header className="bg-gray-800 p-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">YouTube Clone</h1>
+        <h1 className="text-xl font-bold">YouTube</h1>
         <input
           type="text"
           placeholder="Search..."
