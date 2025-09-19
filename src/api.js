@@ -1,4 +1,3 @@
-// Soxta (mock) ma'lumotlar
 const mockVideos = [
     {
       id: "1",
@@ -23,12 +22,12 @@ const mockVideos = [
     },
   ];
   
-  // Barcha videolarni olish
+
   export async function getVideos() {
     return mockVideos;
   }
   
-  // Id bo‘yicha bitta videoni olish
+ 
   export async function getVideo(id) {
     return mockVideos.find((video) => video.id === id);
   }

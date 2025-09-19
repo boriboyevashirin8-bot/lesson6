@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function VideoCard({ video }) {
   return (
     <Link
-      to={`/video/${video.id}`}  // ✅ Correct syntax
+      to={`/video/${video.id}`}
       className="block bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transition"
     >
       <img
